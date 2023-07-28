@@ -1,6 +1,6 @@
 # imccalc
 
-A new Flutter project.
+Calculadora de Imc com Flutter. Versão de desenvolvimento.
 
 ## Getting Started
 
