@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import './telas/Home.dart';
-import './telas/IMC.dart';
 
 void main() {
-  runApp( MyApp());
+  runApp( const MyApp());
 }
 
 class MyApp extends StatelessWidget {
