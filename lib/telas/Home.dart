@@ -11,8 +11,9 @@ class Home extends StatelessWidget {
         appBar: AppBar(
           title: const Text("Calculadora de IMC",
               style: TextStyle(
+                  fontFamily: 'Ubuntu',
                   fontSize: 20,
-                  fontWeight: FontWeight.w600,
+                  fontWeight: FontWeight.w700,
                   color: Colors.white)),
           centerTitle: true,
           backgroundColor: Colors.lightBlue,
@@ -35,6 +36,10 @@ class Home extends StatelessWidget {
             const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
+                      style: TextStyle(
+                        fontFamily: 'Ubuntu',
+                        fontWeight: FontWeight.normal
+                      ),
                       "O IMC é uma medida internacional usada para calcular se uma pessoa está no seu peso ideal, basendo-se na relação entre seu peso e sua altura. ",
                       textAlign: TextAlign.center,
                       )),
@@ -52,8 +57,8 @@ class Home extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Image.asset("assets/imagem.png",
+              padding: const EdgeInsets.all(46.0),
+              child: Image.asset("assets/IMCCalc.png",
                   height: 128,
               ),
             )

@@ -25,8 +25,9 @@ class _IMCState extends State<IMC> {
         appBar: AppBar(
           title: const Text("Calcule seu IMC",
               style: TextStyle(
+                  fontFamily: 'Ubuntu',
                   fontSize: 20,
-                  fontWeight: FontWeight.w600,
+                  fontWeight: FontWeight.w700,
                   color: Colors.white)),
           centerTitle: true,
           backgroundColor: Colors.lightBlue,
