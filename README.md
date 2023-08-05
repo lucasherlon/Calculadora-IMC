@@ -1,6 +1,6 @@
 # imccalc
 
-Calculadora de IMC feita com Flutter. Versão de desenvolvimento para smartphones.
+Calculadora de IMC feita com Flutter.
 
 ## Getting Started
 
