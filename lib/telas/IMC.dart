@@ -47,24 +47,18 @@ class _IMCState extends State<IMC> {
                   child: TextFormField(
                     controller: alturaController,
                     decoration: const InputDecoration(
-                        label: Padding(
-                          padding: EdgeInsets.all(12.0),
-                          child: Text(
-                              "Sua altura em centímetros. (Ex: 175)"),
-                        )),
+                       label: Text("Sua altura em centímetros. (Ex: 175)"),
+                    ),
                     keyboardType: TextInputType.number,
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.all(12.0),
+                  padding: const EdgeInsets.all(10.0),
                   child: TextFormField(
                     controller: pesoController,
                     decoration: const InputDecoration(
-                        label:
-                            Padding(
-                              padding: EdgeInsets.all(10.0),
-                              child: Text("Seu peso em quilogramas. (Ex: 80)"),
-                            )),
+                        label: Text("Seu peso em quilogramas. (Ex: 80)"),
+                    ),
                     keyboardType: TextInputType.number,
                   ),
                 ),
@@ -106,10 +100,7 @@ class _IMCState extends State<IMC> {
                 const Divider(),
                 ElevatedButton(
                     onPressed: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => const Home()));
+                      Navigator.pop(context);
                     },
                     child: const Text("Voltar"))
               ],
