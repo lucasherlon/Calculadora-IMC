@@ -61,6 +61,13 @@ class Home extends StatelessWidget {
               child: Image.asset("assets/IMCCalc.png",
                   height: 128,
               ),
+            ),
+            const Padding(padding: EdgeInsets.only(top: 120.0),
+              child: Text("App made by Lucas Herlon (2023)",
+                style: TextStyle(
+                  fontSize: 12
+                ),
+              ),
             )
           ]),
         ));

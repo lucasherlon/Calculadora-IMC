@@ -46,6 +46,7 @@ class _IMCState extends State<IMC> {
                   padding: const EdgeInsets.all(12.0),
                   child: TextFormField(
                     controller: alturaController,
+                    textInputAction: TextInputAction.next,
                     decoration: const InputDecoration(
                        label: Text("Sua altura em centímetros. (Ex: 175)"),
                     ),
@@ -56,6 +57,7 @@ class _IMCState extends State<IMC> {
                   padding: const EdgeInsets.all(10.0),
                   child: TextFormField(
                     controller: pesoController,
+                    textInputAction: TextInputAction.done,
                     decoration: const InputDecoration(
                         label: Text("Seu peso em quilogramas. (Ex: 80)"),
                     ),
